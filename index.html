@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SearchBook - Best Hotels in Rishikesh</title>
+    <meta name="description" content="Find the best hotels in Uttarakhand. 
+    Discover affordable accommodations with excellent amenities and services for your stay.">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+          <img src="./images/logo.png" alt="Logo">
+          <h3> SearchBook</h3>
+        </div>
+        <button class="signin-button">Sign In</button>
+      </header>
+
+      <section>
+        <div id="booking" class="bg_banner ">
+            <div class="section-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="booking-form">
+                            <div class="form-header">
+                            <h1>Search your Destination</h1>
+                            </div>
+                            <form>
+                                <div class="form-group"> <input class="form-control circular-input" type="text" placeholder="Country, city"> <span class="form-label">Destination</span> </div>
+                                <div class="row">
+                                    <div class="searchD">
+                                        <div class="form-group"> <input class="form-control circular-input" type="date" required> <span class="form-label">Check In</span> </div>
+                                        <div class="form-group"> <input class="form-control circular-input" type="date" required> <span class="form-label">Check out</span> </div>
+
+                                    </div>
+
+                                </div>
+                         
+                                <div class="form-btn"> <button class="submit-btn">Book Now</button> </div>
+                            </form>
+                            
+
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container_section">
+      
+            <div class="filter-container">
+              <div class="map-container">
+                <div class="map-content">
+                  <button class="view-map-button">View Map</button>
+                </div>
+              </div>
+            <div class="filters">
+              <h3>Filter Category</h3>
+              <div class="filter-category">
+                <label class="fl">
+                  <input type="checkbox" class="checkbox-input" name="filter1">    Filter 1
+                </label>
+              </div>
+              <div class="filter-category">
+                <label class="fl">
+                  <input type="checkbox" class="checkbox-input" name="filter2"> Filter 2
+                </label>
+              </div>
+              <div class="filter-category">
+                <label class="fl">
+                  <input type="checkbox" class="checkbox-input" name="filter3"> Filter 3
+                </label>
+              </div>
+            </div>
+            <div class="filters">
+                <h3>Filter Category</h3>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter1"> Filter 1
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter2"> Filter 2
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter3"> Filter 3
+                  </label>
+                </div>
+              </div>
+              <div class="filters">
+                <h3>Filter Category</h3>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter1"> Filter 1
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter2"> Filter 2
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter3"> Filter 3
+                  </label>
+                </div>
+              </div>
+              <div class="filters">
+                <h3>Filter Category</h3>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter1"> Filter 1
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox"class="checkbox-input"  name="filter2"> Filter 2
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox"class="checkbox-input"  name="filter3"> Filter 3
+                  </label>
+                </div>
+              </div>
+              <div class="filters">
+                <h3>Filter Category</h3>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter1"> Filter 1
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox"class="checkbox-input"  name="filter2"> Filter 2
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="checkbox" class="checkbox-input" name="filter3"> Filter 3
+                  </label>
+                </div>
+              </div>
+
+      
+              
+       
+   
+              <div class="filters">
+                <h3>Distance from </h3>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="range" id="slider-filter" class="slider-input" min="0" max="100" step="1" >
+                    <span class="distance_from">35km </span>
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="radio" name="radio-filter" id="radio-filter2" class="radio-input" > KemptyFalls
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="radio" name="radio-filter" id="radio-filter2" class="radio-input" > Haridwar
+                  </label>
+                </div>
+                <div class="filter-category">
+                  <label class="fl">
+                    <input type="radio" name="radio-filter" id="radio-filter2" class="radio-input" > Ganga arti
+                  </label>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="cards">
+              <div class="card">
+                <div class="heading">
+                <h1 class="header_card"> Top rated hotels in Rishikesh 2,918 properties</h1>
+                <div class="filter-section">
+                  <div class="filter-select-wrapper">
+                    <select class="filter-select" id="sort-by-select">
+                      <option value="cheap">Cheap</option>
+                      <option value="expensive">Expensive</option>
+                      <option value="popular">Popular</option>
+                    </select>
+                  </div>
+                  <!-- <button class="filter-button">Filter</button> -->
+                </div>
+                
+              </div>
+                <div class="hotel-listing">
+                  <div class="ribbon">
+                    <span class="ribbon-text">Best Deal</span>
+                  </div>
+                    <div class="hotel-image">
+                      <a href ="" class="photo-wrapper"> 
+                      <img src="/images/room2.jpg" alt="Hotel Image">
+                    </a>
+                    </div>
+                    
+                    <div class="hotel-details">
+                      <h3 class="hotel-heading">
+                        Comfort Hotel Dewa Retreat</h3>
+                        
+                        <p class="hotel-review">Average Rating: <span class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                        <p class="hotel-amenities">
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                      </p>
+                      <p class="hotel-amenities">
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                      
+                      </p>
+                      <p class="hotel-price">$100 per night</p>
+                   
+                    </div>
+                    <div class="hotel-details_external">
+                       <a  href ="#" class="bl" >Hotels.com
+                        ₹ 3,584
+                        </a> 
+
+                          <a  href ="#"  class="bl">  Expedia
+                          ₹ 3,584</a> 
+                         
+                          <div class="foot_Card">                     
+                            <button  class="view-deals-button">Deal Price</button>
+                         </div>
+                            
+           
+                      </div>
+                   
+                      
+                  </div>
+                  <div class="hotel-listing">
+                    <div class="hotel-image">
+                      <a href ="" class="photo-wrapper"> 
+                        <img src="/images/room2.jpg" alt="Hotel Image">
+                      </a>
+                    </div>
+                    <div class="hotel-details">
+                      <h3 class="hotel-heading">
+                        Comfort Hotel Dewa Retreat</h3>
+                        <p class="hotel-review">Average Rating: <span class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                        <p class="hotel-amenities">
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                      </p>
+                      <p class="hotel-amenities">
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                      
+                      </p>
+                      <p class="hotel-price">$100 per night</p>
+                   
+                    </div>
+                    <div class="hotel-details_external">
+                      <a  href ="#" class="bl" >Hotels.com
+                        ₹ 3,584
+                        </a> 
+
+                          <a  href ="#"  class="bl">  Expedia
+                          ₹ 3,584</a> 
+                       
+
+                          <div class="foot_Card">                     
+                            <button  class="view-deals-button">Deal Price</button>
+                         </div>
+                            
+           
+                      </div>
+                   
+                      
+                  </div>
+                    <div class="hotel-listing">
+        
+                    <div class="hotel-image">
+                      <a href ="" class="photo-wrapper"> 
+                        <img src="/images/room2.jpg" alt="Hotel Image">
+                      </a>
+                    </div>
+                    <div class="hotel-details">
+                      <h3 class="hotel-heading">
+                        Comfort Hotel Dewa Retreat</h3>
+                        <p class="hotel-review">Average Rating: <span class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></span></p>
+                        <p class="hotel-amenities">
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                      </p>
+                      <p class="hotel-amenities">
+                        <i class="fas fa-parking"></i> Parking
+                        <i class="fas fa-wifi"></i> Free WiFi
+                      
+                      </p>
+                      <p class="hotel-price">$100 per night</p>
+                   
+                    </div>
+                    <div class="hotel-details_external">
+                      <a  href ="#" class="bl" >Hotels.com
+                        ₹ 3,584
+                        </a> 
+
+                          <a  href ="#"  class="bl">  Expedia
+                          ₹ 3,584</a> 
+
+                          <div class="foot_Card">                     
+                            <button  class="view-deals-button">Deal Price</button>
+                         </div>
+                            
+           
+                      </div>
+                   
+                      
+                  </div>
+              </div>
+
+            </div>
+            
+          </div>
+          
+      </section>
+      <section class="bestPopular">
+        <div class="head_second">
+          <h2>Recommended Hotels in Rishikesh</h2>
+          <p>Here are our most popular & best value hotels:</p>
+        </div>
+        <div class="hotel-slider" style="display: flex;">
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 1">
+            <h3>Hotel Name 1</h3>
+            <p>Rate per night: $100</p>
+          </div>
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 2">
+            <h3>Hotel Name 2</h3>
+            <p>Rate per night: $120</p>
+          </div>
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 3">
+            <h3>Hotel Name 3</h3>
+            <p>Rate per night: $90</p>
+          </div>
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 4">
+            <h3>Hotel Name 4</h3>
+            <p>Rate per night: $90</p>
+          </div>
+        </div>
+      </section>
+      <section class="bestPopular">
+        <div class="head_second">
+          <h2>Recommended Hotels in Rishikesh</h2>
+          <p>Here are our most popular & best value hotels:</p>
+        </div>
+        <div class="hotel-slider" style="display: flex;">
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 1">
+            <h3>Hotel Name 1</h3>
+            <p>Rate per night: $100</p>
+          </div>
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 2">
+            <h3>Hotel Name 2</h3>
+            <p>Rate per night: $120</p>
+          </div>
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 3">
+            <h3>Hotel Name 3</h3>
+            <p>Rate per night: $90</p>
+          </div>
+          <div class="hotel-card">
+            <img src="./images/room2.jpg" alt="Hotel 4">
+            <h3>Hotel Name 4</h3>
+            <p>Rate per night: $90</p>
+          </div>
+        </div>
+      </section>
+      
+
+      <footer class="foot">
+        <div class="footer-section">
+          <h3>India</h3>
+          <ul class="links_s">
+            <li><a href="#">Mussoorie hotels</a></li>
+            <li><a href="#">Lucknow hotels</a></li>
+            <li><a href="#">Calangute hotels</a></li>
+            <li><a href="#">Thiruvananthapuram hotels</a></li>
+            <li><a href="#">Reykjavik hotels</a></li>
+            <li><a href="#">Saint Petersburg hotels</a></li>
+        
+          </ul>
+        </div>
+      
+        <div class="footer-section">
+          <h3>India</h3>
+          <ul class="links_s">
+            <li><a href="#">Mussoorie hotels</a></li>
+            <li><a href="#">Lucknow hotels</a></li>
+            <li><a href="#">Calangute hotels</a></li>
+            <li><a href="#">Thiruvananthapuram hotels</a></li>
+            <li><a href="#">Reykjavik hotels</a></li>
+            <li><a href="#">Saint Petersburg hotels</a></li>
+        
+          </ul>
+        </div>
+      
+        <div class="footer-section">
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          </div>
+          <h3>Not what you’re looking for?</h3>
+          <p>Find thousands of other hotels, flights, and car hires with KAYAK.</p>
+          <p>KAYAK is part of Booking Holdings Inc., the world leader in online travel &amp; related services.</p>
+        </div>
+      </footer>
+      
+      
+</body>
+</html>
